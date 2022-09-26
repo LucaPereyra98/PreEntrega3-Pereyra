@@ -4,35 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- Link de CSS -->
     <link rel="stylesheet" href="css/main.css">
+    <!-- Tipos de fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e318fea92b.js" crossorigin="anonymous"></script>
     <title>Destiny 2 Clan: MAG TURED</title>
 </head>
 <body>
     <!-- Encabezado y Menu de Navegacion -->
     <header>
-
         <nav class="nav">
-
             <div class="nav-container">
-
                 <h1 class="nav-logo">Destiny Clan: Mag Tured</h1>
-
                 <label for="menu" class="nav-label">
                     <img src="assets/menu.svg" alt="menu" class="nav-img">
                 </label>
                 <input type="checkbox" id="menu" class="nav-input">
-
                 <div class="nav-menu">
-                    <a href="#" class="nav-item">Inicio</a>
-                    <a href="#" class="nav-item">Acerca de</a>
-                    <a href="#" class="nav-item">Contacto</a>
+                    <a href="pages/integrantes.html" class="nav-item">Integrantes</a>
+                    <a href="pages/logros.html" class="nav-item">Logros</a>
+                    <a href="pages/fotos-del-clan.html" class="nav-item">Fotos del clan</a>
+                    <a href="pages/unete-a-magtured.html" class="nav-item">Unete a Mag Tured</a>
                 </div>
-
             </div>
-
         </nav>
-
     </header>
+    <!-- Texto main -->
+    <main>
+        <div class="texto-index">
+            <h2 class="titulo-index">Clan: Mag Tured</h2>
+            <p class="parrafo-index">
+                <b class="resaltado-nombre-clan">Mag Tured</b> es un clan de Destiny 2 fundado el 01 de noviembre de 2014 por varios jugadores de Destiny 1 en PS4. <br> <br> Fundado por los jugadores <b class="resaltado-nombre-jugadores">Juanchoen, Quetza y Martin</b>, este clan ha ido aumentando de jugadores con el paso del tiempo. <br> Dentro de sus filas se han unido jugadores de alto calibre y gran dedicacion como: Equinox, un jugador con multiples runs completadas de dungeons en solitario, sherpa de varios integrantes del clan en las actividades mas dificiles como raids <b class="resaltado-especial1">DAY-ONE</b> y <b class="resaltado-especial2">Pruebas de Osiris</b>; LucaPereyra98: jugador experimentado en actividades en grupo que siempre ha estado presente para ayudar a completar actividades (asaltos, dungeons, raids, entre otras actividaes) y que tiene un particularidad aprecio por el modo de juego <b class="resaltado-especial3">Gambito</b>; entre otros jugadores destacados.
+            </p>
+        </div>
+    </main>
+    <!-- Carrousel de fotos -->
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner p-3">
+                <div class="carousel-item active p-3">
+                <img src="assets/img/mag-tured-clan-foto1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>La caida del Rey</h5>
+                    <p>Foto de conmemoracion luego de completar la seccion de los totems en la raid con la dificultad DAY-ONE</p>
+                </div>
+                </div>
+                <div class="carousel-item p-3">
+                <img src="assets/img/mag-tured-clan-foto2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Ultimo Deseo</h5>
+                    <p>Foto de conmemoracion de haber completado el encuentro contra Riven y a punto de comenzar el siguente encuentro</p>
+                </div>
+                </div>
+                <div class="carousel-item p-3">
+                <img src="assets/img/mag-tured-clan-foto3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block texto-interno-foto-carrusel">
+                    <h5>Jardin de la Salvacion</h5>
+                    <p>Foto de conmemoracion al haber llegado a la zona anterior del jefe final</p>
+                </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+            </div>
+    </section >
+    <!-- Footer -->
+    <footer>
+
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

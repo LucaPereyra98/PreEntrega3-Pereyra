@@ -1,7 +1,3 @@
-/* Imports */ 
-
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;900&display=swap');
-
 /* Reset */ 
 
 *{
@@ -13,13 +9,14 @@
 /* Body */ 
 
 body{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #DFF6FF;
 }
 
 /* Encabezado y Menu de navegacion */
 
 .nav{
-    background: #293241;
+    background: #06283D;
     height: 5rem;
     color: #fff;
 }
@@ -36,6 +33,7 @@ body{
 .nav-logo{
     font-size: 1.5em;
     font-weight: 900;
+
 }
 
 .nav-label, .nav-input{
@@ -69,6 +67,48 @@ body{
     --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
+/* Main */ 
+
+.texto-index{
+    margin-top: 1rem;
+}
+
+.titulo-index{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.parrafo-index{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.resaltado-especial1{
+    color: red;
+}
+
+.resaltado-especial2{
+    color: rgba(158, 135, 5, 0.986);
+}
+
+.resaltado-especial3{
+    color: forestgreen;
+}
+
+/* Section */
+
+
+
+/* Footer */
+
+footer{
+    background-color: #06283D;
+}
+
+
+/* Media querys */
+
 @media (max-width: 700px){
     .nav-label{
         display: block;
@@ -79,7 +119,7 @@ body{
         position: fixed;
         top: 5rem;
         bottom: 0;
-        background: #f08080;
+        background: #47B5FF;
         width: 100%;
         left: 0;
         display: flex;
@@ -93,4 +133,9 @@ body{
     .nav-input:checked + .nav-menu{
         clip-path: circle(100% at center);
     }
+
+    .nav-item{
+        color: #000;
+    }
+    /* Main */ 
 }
