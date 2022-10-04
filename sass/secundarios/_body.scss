@@ -1,0 +1,18 @@
+/* body y extras */
+body{
+    background-color: $color-main-bg;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    a{
+        text-decoration: none;
+    }
+    nav{
+        ul{
+            list-style: none;
+        }
+    }
+}

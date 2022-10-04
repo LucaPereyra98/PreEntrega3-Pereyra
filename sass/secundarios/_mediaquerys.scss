@@ -1,0 +1,65 @@
+/* media querys */
+
+@media (min-width: 768px){
+    /*Body*/
+    body{
+        header{
+            nav{
+                ul{
+                    margin-bottom: 0 !important;
+                }
+            }
+        }
+    }
+    /*menu de navegacion*/
+    .header{
+        a{
+            text-align: center;
+        }
+    }
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+    }
+    .menu{
+        li{
+            float: left;
+        }
+    }
+    .menu{
+        a:hover{
+            background-color: transparent;
+            color: $color-header-texto;
+        }
+    }
+    .hamb{
+        display: none;
+    }
+    /*main index*/
+    main{
+        .container-main{
+            display: flex;
+            justify-content: space-between;
+            img{
+                width: 18.75rem;
+                display: block;
+            }
+        }
+    }
+    /*main unete a MAG TURED*/
+    .contact-wrapper{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info{
+        h4, ul, p{
+            padding: 1em;
+        }
+    }
+}
