@@ -26,17 +26,12 @@ header nav ul {
   top: 0;
   width: 100%; }
 
-.header a {
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 3rem;
-  color: #eee; }
-
 /* logo */
 .logo {
   display: inline-block;
-  color: #EEEEEE;
   font-size: 3.75rem;
-  margin-left: 0.625rem; }
+  margin-left: 0.625rem;
+  color: #AA14F0; }
 
 /* menu de navegacion */
 .nav {
@@ -107,7 +102,7 @@ header nav ul {
   transform: rotate(45deg);
   top: 0; }
 
-/* main index */
+/* main "index" */
 main .container-main img {
   display: none; }
 
@@ -124,9 +119,45 @@ main .container-main .texto .parrafo-index1 {
 main .container-main .texto .parrafo-index2 {
   font-size: 2rem;
   text-align: center;
-  color: goldenrod; }
+  color: #AA14F0; }
 
-/* main "Unete a MAG TURED" */
+/*main "fotos del clan"*/
+.titulo-fotos {
+  text-align: center;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  color: #AA14F0; }
+
+/*main "logros"*/
+main .fotos-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem; }
+  main .fotos-container .logros-foto1 {
+    height: 6rem;
+    margin: 1rem 0 1rem 0; }
+  main .fotos-container .logros-foto2 {
+    height: 6rem;
+    margin: 1rem 0 1rem 0; }
+  main .fotos-container .logros-foto3 {
+    height: 6rem;
+    margin: 1rem 0 1rem 0; }
+
+main .texto-logros {
+  padding: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 0; }
+
+main ul li {
+  font-size: 1.5rem; }
+
+main .mensaje-final-logros {
+  text-align: center;
+  color: #AA14F0;
+  font-size: 1.5rem;
+  text-transform: uppercase; }
+
+/*main "Unete a MAG TURED"*/
 .main-form {
   padding: 0 1.5em; }
   .main-form .content {
@@ -201,8 +232,9 @@ footer {
   body header nav ul {
     margin-bottom: 0 !important; }
   /*menu de navegacion*/
-  .header a {
-    text-align: center; }
+  .header a .logo {
+    font-size: 3.75rem;
+    text-decoration: none; }
   .nav {
     max-height: none;
     top: 0;
@@ -223,6 +255,13 @@ footer {
     main .container-main img {
       width: 18.75rem;
       display: block; }
+  /*main-logros*/
+  main .fotos-container .logros-foto1 {
+    height: 10rem; }
+  main .fotos-container .logros-foto2 {
+    height: 10rem; }
+  main .fotos-container .logros-foto3 {
+    height: 10rem; }
   /*main unete a MAG TURED*/
   .contact-wrapper {
     display: grid;

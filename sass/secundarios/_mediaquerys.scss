@@ -14,7 +14,10 @@
     /*menu de navegacion*/
     .header{
         a{
-            text-align: center;
+            .logo{
+                font-size: 3.75rem;
+                text-decoration: none;
+            }
         }
     }
     .nav{
@@ -46,6 +49,20 @@
             img{
                 width: 18.75rem;
                 display: block;
+            }
+        }
+    }
+    /*main-logros*/
+    main{
+        .fotos-container{
+            .logros-foto1{
+                height: 10rem;
+            }
+            .logros-foto2{
+                height: 10rem;
+            }
+            .logros-foto3{
+                height: 10rem;
             }
         }
     }

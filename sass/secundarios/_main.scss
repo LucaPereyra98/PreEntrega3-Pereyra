@@ -1,4 +1,4 @@
-/* main index */ 
+/* main "index" */ 
 main{
     .container-main{
         img{
@@ -18,12 +18,55 @@ main{
             .parrafo-index2{
                 font-size: 2rem;
                 text-align: center;
-                color: goldenrod;
+                color: $color-header-texto;
             }
         }
     }
 }
-/* main "Unete a MAG TURED" */
+/*main "fotos del clan"*/
+.titulo-fotos{
+    text-align: center;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    color: $color-header-texto;
+}
+/*main "logros"*/
+main{
+    .fotos-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        .logros-foto1{
+            height: 6rem;
+            margin: 1rem 0 1rem 0;
+        }
+        .logros-foto2{
+            height: 6rem;
+            margin: 1rem 0 1rem 0;
+        }
+        .logros-foto3{
+            height: 6rem;
+            margin: 1rem 0 1rem 0;
+        }
+    }
+    .texto-logros{
+        padding: 1rem;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+    ul{
+        li{
+            font-size: 1.5rem;
+        }
+    }
+    .mensaje-final-logros{
+        text-align: center;
+        color: $color-header-texto;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+}
+/*main "Unete a MAG TURED"*/
 .main-form{
     padding: 0 1.5em;
     .content{

@@ -6,19 +6,13 @@
     top: 0;
     width: 100%;
 }
-.header{
-    a{
-        font-family: 'Noto Sans', sans-serif;
-        font-size: 3rem;
-        color: $color-header-h1;
-    }
-}
 /* logo */
 .logo{
     display: inline-block;
-    color: $color-main-bg;
     font-size: 3.75rem;
     margin-left: 0.625rem;
+    color: $color-header-texto;
+    
 }
 /* menu de navegacion */
 .nav{
