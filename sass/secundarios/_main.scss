@@ -30,6 +30,27 @@ main{
     text-transform: uppercase;
     color: $color-header-texto;
 }
+/*main integrantes*/
+main{
+    .titulo-integrantes{
+        text-align: center;
+        color: $color-header-texto;
+        margin-top: 1rem;
+    }
+    .parrafo1-integrantes{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+    .parrafo2-integrantes{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+    ul{
+        .integrante{
+            margin: 0.5rem;
+        }
+    }
+}
 /*main "logros"*/
 main{
     .fotos-container{
